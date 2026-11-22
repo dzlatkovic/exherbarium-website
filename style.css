@@ -14,9 +14,9 @@ a:hover { text-decoration-thickness: .15em; }
 a:focus-visible { outline: 3px solid #866117; outline-offset: 4px; }
 p, figure { margin: 0; }
 h1, h2, h3 { font-weight: 500; line-height: 1.25; letter-spacing: -.005em; }
-h1 { font-size: clamp(2.9rem, 6.4vw, 5.6rem); margin: .15em 0 .3em; }
-h2 { font-size: clamp(2rem, 4.1vw, 3.2rem); margin: 0 0 .45em; }
-h3 { font-size: 1.55rem; margin: 0; }
+h1 { font-size: clamp(2.25rem, 4.6vw, 4rem); margin: .15em 0 .3em; }
+h2 { font-size: clamp(1.6rem, 3vw, 2.35rem); margin: 0 0 .45em; }
+h3 { font-size: 1.3rem; margin: 0; }
 .wrap { width: min(72rem, calc(100% - 3rem)); margin-inline: auto; }
 .skip { position: absolute; left: 1rem; top: .5rem; transform: translateY(-200%); background: white; padding: .5rem; }
 .skip:focus { transform: translateY(0); }
@@ -26,7 +26,7 @@ h3 { font-size: 1.55rem; margin: 0; }
 .brand { display: inline-flex; align-items: center; gap: .65rem; color: inherit; font-weight: 600; text-decoration: none; }
 .hero { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: clamp(1.75rem, 5vw, 5rem); align-items: center; padding-block: clamp(3rem, 8vw, 7rem); }
 .eyebrow { color: #3e6453; font-size: .875rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; }
-.intro { font-size: clamp(1.1rem, 2vw, 1.3rem); max-width: 36rem; }
+.intro { font-size: clamp(1.05rem, 1.5vw, 1.15rem); max-width: 36rem; }
 .actions { margin-top: 1.75rem; }
 .button { padding: .7rem 1rem; border-radius: .3rem; color: white; background: var(--forest); font-weight: 600; text-decoration: none; }
 .button:hover { background: #173528; }
